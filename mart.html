@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mart_updates</title>
+    </head>
+    <style>
+        #t{
+            border: none; border-radius: 18px;
+                background: lightgray; padding: 20px; width: 500px;
+                height: 12px; margin-left: 75px; margin-top: 50px;
+        }
+
+        #button {
+                background-color: #4CAF50; /* Green */
+                border: none;color: white;padding: 16px 32px;text-align: center;
+                text-decoration: none;display: inline-block;font-size: 16px;
+                margin: 4px 2px;margin-top: 30px;margin-left: 20px;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;cursor: pointer;
+            }
+
+            #addpro{
+                background-color:white;color: black;border: 2px solid #4CAF50;margin-top: 5px;
+            }
+
+            #addpro:hover{
+                background-color:#4CAF50;color: white;border: 2px solid #4CAF50;
+            }
+            #rempro{
+                background-color:white;color: black;border: 2px solid #4CAF50;margin-top: 1px;
+            }
+
+            #rempro:hover{
+                background-color:#4CAF50;color: white;border: 2px solid #4CAF50;
+            }
+    </style>
+    <body>
+        <h1>Add or remove product directly from here</h1>
+        <div id="mart">
+            <select name="Select Category" id="t">
+                <option value="Clothes" id="t">Clothes</option>
+                <option value="Electronics"id="t">Electronics</option>
+                <option value="Grocery"id="t">Grocery</option>
+                <option value="Accessories"id="t">Accessories</option>
+            </select>
+            <select name="Select Category" id="t">
+                <option value="Clothes">Shrits</option>
+                <option value="Electronics">T-Shirt</option>
+                <option value="Grocery">Pants</option>
+            </select>
+            <input type="text" placeholder="Enter Product" name="addcateg" id="t"
+            style=" margin-left:350px;"/><br>
+        </div>
+        
+        <div style="margin-left: 480px;">
+            <table style="width: 35%; border-spacing: 50px;">
+                <td>
+                    <button id="addpro" name="addpro">Add</button>
+                </td>
+                <td>
+                    <button id="rempro" name="rempro">Remove</button>
+                </td>
+
+    </body>
+</html>
