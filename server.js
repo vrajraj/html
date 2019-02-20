@@ -1,12 +1,6 @@
 (function () {
     // Initialize Firebase
-    const config = {
-        apiKey: "AIzaSyA4ML3ntkN8lROoGiuKnoipVL2lltGd3QM",
-        authDomain: "fizzy5-b140e.firebaseapp.com",
-        databaseURL: "https://fizzy5-b140e.firebaseio.com",
-        projectId: "fizzy5-b140e",
-        storageBucket: "fizzy5-b140e.appspot.com",
-        messagingSenderId: "459113918994"
+    const config = {"
     };
     firebase.initializeApp(config);
 
